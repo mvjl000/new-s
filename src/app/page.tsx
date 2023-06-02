@@ -1,9 +1,12 @@
+import { ArticlesList } from "@/components/Articles/ArticlesList";
+
 export default function Home() {
   return (
-    <main>
-      <h1>New(s)</h1>
-      Hello world
-      <p className="font-playfair">should be playfair</p>
-    </main>
+    <>
+      <h1 className="font-playfair text-3xl md:text-4xl xl:text-5xl text-orange-900 tracking-wide">
+        On everyone{"'"}s tongue
+        <ArticlesList />
+      </h1>
+    </>
   );
 }
