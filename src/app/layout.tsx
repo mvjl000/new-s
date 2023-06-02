@@ -17,13 +17,14 @@ export default function RootLayout({
       <body className={montserrat.className}>
         <div className="min-h-screen flex flex-col">
           <Header />
-          <div className="flex-grow flex items-stretch pt-6">
+          {/* <div className="flex-grow flex items-stretch pt-6"> */}
+          <div>
             {/* <SideMenu /> */}
-            <p>Side menu</p>
+            {/* <p>Side menu</p> */}
             <main className="flex-grow px-4 md:px-5 xl:px-6">{children}</main>
           </div>
           {/* <Footer /> */}
-          <p>Footer</p>
+          {/* <p>Footer</p> */}
         </div>
       </body>
     </html>
